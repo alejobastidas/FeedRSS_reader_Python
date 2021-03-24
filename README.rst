@@ -1,11 +1,6 @@
 FeedRSS reader Python
 ========
 
-.. image:: https://travis-ci.org/NicolasLM/feedsubs.svg?branch=master
-    :target: https://travis-ci.org/NicolasLM/feedsubs
-.. image:: https://coveralls.io/repos/github/NicolasLM/feedsubs/badge.svg?branch=master
-    :target: https://coveralls.io/github/NicolasLM/feedsubs?branch=master
-
 RSS feed reader for Python 3.
 
 Features:
@@ -16,7 +11,6 @@ Features:
 * Removal of tracking pixels
 * Grouping of feeds with tags
 * Multi-users
-* MIT licensed
 
 Hosted service
 --------------
