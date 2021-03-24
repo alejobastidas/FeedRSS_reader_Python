@@ -5,18 +5,18 @@ RSS feed reader for Python 3.
 
 Features:
 
-* Support for RSS, Atom and JSON feeds
+* Support for RSS
+* Allow new users
 * Background synchronization
-* Caching and resizing of image embedded in feeds
-* Removal of tracking pixels
-* Grouping of feeds with tags
+* Review of own feeds by registered users
+* Log reports
 * Multi-users
 
 Hosted service
 --------------
 
 * The interface is locally hosted.
-* Port 8000 -- localhost
+* Port 5000 -- localhost
 
 Development guide
 -----------------
