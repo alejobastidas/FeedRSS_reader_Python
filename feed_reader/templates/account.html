@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Feed for {{ current_user.username }}</h1>
+
+    {% for article in articles %}
+        <article class="media content-section">
+            <div class="media-body">
+                <div class="article-metadata">
+                    <a class="mr-2" href="{{ article.link }}">{{ article.link }}</a>
+                    <small class="text-muted">{{ article.date_published}}</small>
+                </div>
+                <div>
+                    <h2><a class="article-title" href="{{ article.link }}">{{ article.title }}</a></h2>
+                    <p class="article-content">{{ article.body }}</p>
+                </div>
+            </div>  
+        </article>
+    {% endfor %}
+
+
+{% endblock content %}

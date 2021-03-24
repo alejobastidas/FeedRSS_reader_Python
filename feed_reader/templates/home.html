@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="navbar-nav">
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title">
+              Welcome {{ current_user.username }}, start by adding feeds to read
+            </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+        </div>
+      </section>
+  </div>
+  <form method="POST">
+      <input type="text" name="url" id='input_url' style="width:90%">
+      <button type="submit">Add feed</button>
+  </form>
+  
+  <table class="table" style="width:90%">
+    <thead>
+      <tr>
+        <th>News</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for source in sources %}
+        <tr>
+          <td><a href="{{ source.link }}"> {{ source.title }}</a></td>
+          <td><a href = "/delete/{{ source.id }}" >  Unsubscribe </a></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>  
+{% endblock content %}
