@@ -1,4 +1,4 @@
-FeedRSS_reader_Python
+FeedRSS reader Python
 ========
 
 .. image:: https://travis-ci.org/NicolasLM/feedsubs.svg?branch=master
@@ -30,12 +30,12 @@ it is the easiest way to start using the software without installing anything.
 Development guide
 -----------------
 
-Feedsubs is a typical Django project, anyone familiar with Django will feel
+Feed reader is a typical Flask project, anyone familiar with Flask will feel
 right at home. It requires:
 
-* Python 3.6+
-* Postgresql database
-* Redis server for background tasks
+* Python 3.7+
+* SQLAlchemy database
+* BackgroundScheduler for background tasks
 
 Quickstart::
 
