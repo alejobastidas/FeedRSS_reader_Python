@@ -35,7 +35,8 @@ Quickstart::
         * cd FeedRSS_reader_Python/
         * python3 -m venv venv
         * source venv/bin/activate
-        * Make sure to install the Python libraries and package using pip3 install (check requirements.txt)
+        * Make sure to install the Python libraries and package using:
+                * pip3 install -r requirements.txt
         * python3 run.py
         
     Web browser:
