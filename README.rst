@@ -25,6 +25,7 @@ Feed reader is a typical Flask project, anyone familiar with Flask will feel
 right at home. It requires:
 
 * Python 3.7+
+* Flask
 * SQLAlchemy database
 * BackgroundScheduler for background tasks
 
@@ -34,7 +35,7 @@ Quickstart::
         * cd FeedRSS_reader_Python/
         * python3 -m venv venv
         * source venv/bin/activate
-        * pip install -e .[dev]
+        * Make sure to install the Python libraries and package using pip3 install (check requirements.txt)
         * python3 run.py
         
     Web browser:
