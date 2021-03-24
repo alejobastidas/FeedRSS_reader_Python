@@ -8,7 +8,9 @@ FeedRSS reader Python
 
 RSS feed reader for Python 3.
 
-.. image:: https://raw.githubusercontent.com/NicolasLM/feedsubs/master/misc/screenshot.png
+.. image:: /home/alejo/Escritorio/Feed_ss.png
+  :width: 400
+  :alt: Alternative text
     :target: https://feedsubs.com
 
 Features:
