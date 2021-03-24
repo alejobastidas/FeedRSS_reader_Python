@@ -15,8 +15,8 @@ Features:
 Hosted service
 --------------
 
-The interface is locally hosted.
-Port 8000 -- localhost
+* The interface is locally hosted.
+* Port 8000 -- localhost
 
 Development guide
 -----------------
@@ -30,14 +30,14 @@ right at home. It requires:
 
 Quickstart::
     from the console
-        git clone https://github.com/alejobastidas/FeedRSS_reader_Python.git
-        cd FeedRSS_reader_Python/
-        python3 -m venv venv
-        source venv/bin/activate
-        pip install -e .[dev]
-        python3 run.py
+        * git clone https://github.com/alejobastidas/FeedRSS_reader_Python.git
+        * cd FeedRSS_reader_Python/
+        * python3 -m venv venv
+        * source venv/bin/activate
+        * pip install -e .[dev]
+        * python3 run.py
         
     Web browser:
-        http://127.0.0.1:5000/home
-        http://localhost:5000/home
+        * http://127.0.0.1:5000/home
+        * http://localhost:5000/home
 
