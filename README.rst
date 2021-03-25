@@ -24,7 +24,7 @@ Development guide
 Feed reader is a typical Flask project, anyone familiar with Flask will feel
 right at home. It requires:
 
-* Python 3.7+
+* Python 3.6+
 * Flask
 * SQLAlchemy database
 * BackgroundScheduler for background tasks
