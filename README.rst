@@ -11,6 +11,7 @@ Features:
 * Review of own feeds by registered users
 * Log reports
 * Multi-users
+* Unit tests
 
 Hosted service
 --------------
@@ -30,7 +31,7 @@ right at home. It requires:
 * BackgroundScheduler for background tasks
 
 Quickstart::
-    from the console
+    From the console
         * git clone https://github.com/alejobastidas/FeedRSS_reader_Python.git
         * cd FeedRSS_reader_Python/
         * python3 -m venv venv
@@ -43,4 +44,7 @@ Quickstart::
         * http://127.0.0.1:5000/home
         * http://localhost:5000/home
         * You can subscribe to the news on the main page and check your feeds in the account section!
-
+        
+    Run unit test:
+        * You can run the unit test using:
+                * python3 test_python.py -v
