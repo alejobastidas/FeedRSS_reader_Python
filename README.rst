@@ -42,4 +42,5 @@ Quickstart::
     Web browser:
         * http://127.0.0.1:5000/home
         * http://localhost:5000/home
+        * You can subscribe to the news on the main page and check your feeds in the account section!
 
